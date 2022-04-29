@@ -1,4 +1,4 @@
-    * {
+       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -47,4 +47,13 @@
         left: 0%;
         width: 100%;
         z-index: -10;
+    }
+
+    .time-select button,
+    .sound-picker button{
+        color: white;
+        width: 30%;
+        height: 10%;
+        background: none;
+
     }
