@@ -9,11 +9,11 @@
   </head>
   <body>
     <div class="app">
-        <div class="vid-container">
-            <video loop>
-            <source src="./video/rain.mp4" type="video/mp4">
-            </video>
-        </div>
+      <div class="vid-container">
+        <video loop>
+          <source src="./video/rain.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div class="time-select">
         <button date-time="120">2 minutes</button>
         <button date-time="300">5 minutes</button>
@@ -33,7 +33,6 @@
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle
-            class="moving-outline"
             cx="226.5"
             cy="226.5"
             r="216.5"
@@ -43,6 +42,7 @@
         </svg>
 
         <svg
+          class="moving-outline"
           width="453"
           height="453"
           viewBox="0 0 453 453"
@@ -57,7 +57,7 @@
             stroke-width="20"
           />
         </svg>
-        <h3>0:00</h3>
+        <h3 class="time-display">0:00</h3>
       </div>
       <div class="sound-picker">
         <button data-sound="./sounds/rain.mp3" data-video="./video/rain.mp4">
@@ -68,6 +68,7 @@
         </button>
       </div>
     </div>
-    <script src="app_4_meditation.js"></script>
+    <script src="app_4_meditation_2nd_try.js"></script>
   </body>
 </html>
+
