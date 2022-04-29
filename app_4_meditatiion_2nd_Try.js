@@ -12,6 +12,11 @@ const app = () => {
     //Get the length of the outline
     const outLineLength = outline.getTotalLength();
     console.log(outLineLength);
+    //Duration
+    let fakeDuration = 600;
+
+    outline.style.strokeDasharray = outLineLength;
+    outline.style.strokeDashoffset = 200;
     
 }
 
