@@ -16,7 +16,7 @@ const app = () => {
     let fakeDuration = 600;
 
     outline.style.strokeDasharray = outLineLength;
-    outline.style.strokeDashoffset = 200;
+    outline.style.strokeDashoffset = outLineLength;
     
 }
 
