@@ -4,13 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="meditate_my_style.css" />
+    <link rel="stylesheet" href="meditate_my_style_newbeginning001.css" />
     <title>Meditation 2nd try</title>
   </head>
   <body>
     <div class="app">
-      <div class="time-select"></div>
-      <div class="player-container"></div>
+      <div class="time-select">
+        <button date-time="120">2 minutes</button>
+        <button date-time="300">5 minutes</button>
+        <button date-time="600">10 minutes</button>
+      </div>
+      <div class="player-container">
+        <audio class="song">
+          <source src="./sounds/rain.mp3" />
+        </audio>
+        <img src="./svg/play.svg" alt="play" class="play" />
+      </div>
       <div class="sound-picker"></div>
     </div>
     <script src="app_4_meditation.js"></script>
