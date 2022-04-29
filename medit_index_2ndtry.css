@@ -1,4 +1,4 @@
-            * {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -33,16 +33,12 @@
         pointer-events: none;
     }
 
-    .time-select{
-        background: lightblue;
-    }
-
-    .sound-picker {
-        background: lightgreen;
-    }
-
-    .player-container{
-        background: lightcoral;
+    
+    .time-display{
+        position: absolute;
+        bottom: 10%;
+        color: white;
+        font-size: 50px;
     }
 
     video{
