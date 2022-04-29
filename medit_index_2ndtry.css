@@ -56,5 +56,32 @@
         height: 10%;
         background: none;
         border: 2px solid white;
+        cursor: pointer;
+
+    }
+
+    
+    .time-display{
+        position: absolute;
+        bottom: 10%;
+        color: white;
+        font-size: 50px;
+    }
+
+    video{
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        z-index: -10;
+    }
+
+    .time-select button,
+    .sound-picker button{
+        color: white;
+        width: 30%;
+        height: 10%;
+        background: none;
+        border: 2px solid white;
 
     }
