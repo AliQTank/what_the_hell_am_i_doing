@@ -36,6 +36,18 @@ const checkPlaying = song => {
         play.src = "./svg/play.svg";
     }
 }
+
+// to animate circle
+song.ontimeupdate = ()=> {
+    let currentTime = song.currentTime;
+    let elapsed = fakeDuration - currentTime;
+    let seconds = Math.floor(elapsed % 60);
+    let minutes = Math.floor(elapsed / 60);
+
+    // To Animate the bar
+    let progress = outLineLength - (currentTime / fakeDuration) * outLineLength;
+    outline.style.strokeDashoffset = progress
+}
 }
 
 app();
