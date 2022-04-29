@@ -47,6 +47,8 @@ song.ontimeupdate = ()=> {
     // To Animate the bar
     let progress = outLineLength - (currentTime / fakeDuration) * outLineLength;
     outline.style.strokeDashoffset = progress
+    //animate the text
+    TimeDisplay.textContent = `${minutes}:${seconds}`;
 }
 }
 
