@@ -21,7 +21,11 @@
     }
 
     .player-container {
-        
+        position: relative;
+    }
+
+    .player-container svg{
+        position: absolute;
     }
 
     .time-select{
