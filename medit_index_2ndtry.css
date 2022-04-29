@@ -71,7 +71,7 @@
     .sound-picker button{
         border: none;
         height: 120px;
-        width: 120%;
+        width: 120px;
     }
 
     .sound-picker button:nth-child(1){
