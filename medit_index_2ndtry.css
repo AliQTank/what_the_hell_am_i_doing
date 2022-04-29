@@ -46,15 +46,5 @@
         top: 0%;
         left: 0%;
         width: 100%;
-    }
-    
-    .time-display{
-        position: absolute;
-        bottom: 10%;
-        color: white;
-        font-size: 50px;
-    }
-
-    video{
-        display: none;
+        z-index: -10;
     }
